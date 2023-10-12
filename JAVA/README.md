@@ -1,9 +1,5 @@
-1. java概述
-1.1 JVM JRE JDK
-JDK（Java Development Kit）：java开发工具包，jdk17.0.6版本，包含了JRE、编译器以及许多调试、分析等工具软件。它能够创建和编译Java程序 。
+## java概述
 
+Java是一门[面向对象](https://baike.baidu.com/item/面向对象?fromModule=lemma_inlink)的编程语言，不仅吸收了[C++](https://baike.baidu.com/item/C%2B%2B?fromModule=lemma_inlink)语言的各种优点，还摒弃了C++里难以理解的多继承、[指针](https://baike.baidu.com/item/指针/2878304?fromModule=lemma_inlink)等概念，因此Java语言具有功能强大和简单易用两个特征。Java语言作为静态面向对象编程语言的代表，极好地实现了面向对象理论，允许程序员以优雅的思维方式进行复杂的编程 [1] 。
 
-
- JVM（Java Virtual Machine）：即Java虚拟机，用来运行Java字节码文件，JVM是Java跨平台的关键。因为它屏蔽了不同操作系统之间的差异，可以让相同的Java程序在不同的操作系统上运行出相同的结果。
-
-JRE（Java Runtime Environment）：即Java运行时环境，它是运行Java已编译程序所必需的软件环境，包含了JVM、Java标准类库。JRE提供给只想运行Java程序的用户使用，不能用于创建新的程序，即不能将Java源代码编译程字节码文件。
+Java具有简单性、面向对象、[分布式](https://baike.baidu.com/item/分布式/19276232?fromModule=lemma_inlink)、[健壮性](https://baike.baidu.com/item/健壮性/4430133?fromModule=lemma_inlink)、[安全性](https://baike.baidu.com/item/安全性/7664678?fromModule=lemma_inlink)、平台独立与可移植性、[多线程](https://baike.baidu.com/item/多线程/1190404?fromModule=lemma_inlink)、动态性等特点 [2] 。Java可以编写[桌面应用程序](https://baike.baidu.com/item/桌面应用程序/2331979?fromModule=lemma_inlink)、Web应用程序、[分布式系统](https://baike.baidu.com/item/分布式系统/4905336?fromModule=lemma_inlink)和[嵌入式系统](https://baike.baidu.com/item/嵌入式系统/186978?fromModule=lemma_inlink)应用程序等 [3] 。
