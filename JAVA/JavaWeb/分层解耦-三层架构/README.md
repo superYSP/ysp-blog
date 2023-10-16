@@ -1,5 +1,5 @@
 **一、概述**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/fe2d460286c34322a8fd9f2cadf96bc8.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/fe2d460286c34322a8fd9f2cadf96bc8.png)
 
 **二、请求**
 
@@ -19,7 +19,7 @@
 
 ** 2、请求端**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/43ff0c56c9c2437095a537744a2d93ac.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/43ff0c56c9c2437095a537744a2d93ac.png)
 
 **（2）SpringBoot接收参数：形参名与请求数据名相同，即可获取对应值 或 添加@RequestParam注解映射参数**
 
@@ -31,7 +31,7 @@
 
 **2、请求端**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/bceab487eb0844f4a6332524ea2beaaf.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/bceab487eb0844f4a6332524ea2beaaf.png)
 **（三）实体参数：** web端发送数据，且符合实体对象属性，则使用实体参数接收
 
 ** 1、服务端代码**
@@ -44,7 +44,7 @@ public class UserController {@RequestMapping("/regist")public int regist(User us
 ```
 
 ** 2、请求端**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d981ed560bc94256850c5aab4cedc27e.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/d981ed560bc94256850c5aab4cedc27e.png)
 
 **注意事项：**
 **1、简单参数可以使用 @RequestParam(name,required) 注解规定接收的参数名和传递必须性。**
@@ -64,8 +64,8 @@ public class UserController {//数组接收参数@RequestMapping("/arrayParam")p
 ```
 
 ** 2、请求端**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c1d9d1245a7d4015bdb74c9e2be38507.png)
-![在这里插入图片描述](https://img-blog.csdnimg.cn/0709bbe9b0144483ba9b767a40605fec.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/c1d9d1245a7d4015bdb74c9e2be38507.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/0709bbe9b0144483ba9b767a40605fec.png)
 
 **（五）日期参数传递**
 
@@ -79,7 +79,7 @@ public class DateController {@RequestMapping("/dateParam")public int dateParam(@
 ```
 
 **2、请求端**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/d65922cfc0ec435aa061af29ebaae42e.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/d65922cfc0ec435aa061af29ebaae42e.png)
 
 **（六）JSON参数传递**
 
@@ -96,7 +96,7 @@ User{name='惊喜', age='23', address=Address{province='浙江', city='杭州'}}
 
 **2、请求端**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/5df2e224b5684bbc9754ded58ed8f06b.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/5df2e224b5684bbc9754ded58ed8f06b.png)
 
 **（七）路径参数传递**
 
@@ -111,7 +111,7 @@ public class PathController {@RequestMapping("/pathParam/{id}")public int pathPa
 
 **2、请求端**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/c04905ed59504dc2bced623180b3dd11.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/c04905ed59504dc2bced623180b3dd11.png)
 
 **三、响应**
 
@@ -142,13 +142,13 @@ public class NewController {@RequestMapping("/testParam")public Result testParam
 ```
 
 **4、请求端接收数据**
-![在这里插入图片描述](https://img-blog.csdnimg.cn/9d287b34619c403faf7ae2cc5e7b3f15.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/9d287b34619c403faf7ae2cc5e7b3f15.png)
 
 **四、分层解耦**
 
 **（一）三层架构**
 
-![在这里插入图片描述](https://img-blog.csdnimg.cn/b3d518ff57174df08dfe0642843839c8.png)
+![在这里插入图片描述](https://hmleadnews-ysp.oss-cn-beijing.aliyuncs.com/b3d518ff57174df08dfe0642843839c8.png)
 
 - **第一层：Contoller：** 控制层，负责接收客户端发送的请求，对请求进行处理，并响应数据。
 - **第二次：Service：** 业务逻辑层，负责处理具体的业务逻辑
@@ -218,5 +218,3 @@ public class SpringbootWebRegRespApplicaiton{public static void main(String[] ar
 | @Primary   | 强制注解注入                               |
 | @Qualifier | 注入指定名称的注解，需要配合@Autowired注解 |
 | @Resource  | 按照Bean名称进行注入                       |
-
-![JavaWeb学习路线（4）——请求响应与分层解耦](http://pic.xiahunao.cn/wd/JavaWeb%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF%EF%BC%884%EF%BC%89%E2%80%94%E2%80%94%E8%AF%B7%E6%B1%82%E5%93%8D%E5%BA%94%E4%B8%8E%E5%88%86%E5%B1%82%E8%A7%A3%E8%80%A6)
