@@ -1,1 +1,3 @@
-这里是JavaWeb相关内容
+## javaWeb简介
+
+Java Web，是用Java技术来解决相关web互联网领域的技术栈。web包括：web[服务端](https://baike.baidu.com/item/服务端/6492316?fromModule=lemma_inlink)和web[客户端](https://baike.baidu.com/item/客户端/101081?fromModule=lemma_inlink)两部分。Java在客户端的应用有Java Applet，不过[使用](https://baike.baidu.com/item/使用/7741550?fromModule=lemma_inlink)得很少，Java在[服务器端](https://baike.baidu.com/item/服务器端/3369401?fromModule=lemma_inlink)的应用非常的丰富，比如[Servlet](https://baike.baidu.com/item/Servlet/477555?fromModule=lemma_inlink)，[JSP](https://baike.baidu.com/item/JSP/141543?fromModule=lemma_inlink)、第三方[框架](https://baike.baidu.com/item/框架/1212667?fromModule=lemma_inlink)等等。Java技术对Web领域的发展注入了强大的动力。
